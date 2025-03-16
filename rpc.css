@@ -1,0 +1,99 @@
+.{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    align-content: center;
+    height: 100%;
+   }
+body{
+    background-color: cadetblue;
+    font-family: "Iansui", cursive;
+    font-style:italic;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: bisque;
+
+
+}
+h1{
+    text-align: center;
+    color: beige;
+    font-size: 33px;
+    /* text-decoration: underline; */
+    text-underline-offset:10px;
+}
+.rock,.paper,.scissor{
+    text-align: center;
+    background-color:transparent;
+    border-style:ridge;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    margin: 10px;
+    color: beige;
+}
+.rpcbutton{
+    text-align: center;
+}
+.points{
+    font-size:22px;
+    color:rgb(168, 9, 9);
+    margin-left: 10%;
+    margin-top: 100px;
+}
+button:hover {
+    background: rgba(252, 250, 250, 0.291);
+    transform: scale();
+}
+.o{
+    color: aqua;
+}
+h2{
+    display: block;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .rpcbutton {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rock,
+    .paper,
+    .scissor {
+        height: 120px;
+        width: 120px;
+        font-size: 24px;
+    }
+
+    .points {
+        font-size: 18px;
+    }
+}
+
+/* Very Small Screens (Phones under 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .rock,
+    .paper,
+    .scissor {
+        height: 100px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .points {
+        font-size: 16px;
+    }
+}
